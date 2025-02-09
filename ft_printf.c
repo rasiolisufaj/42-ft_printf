@@ -20,6 +20,8 @@ static int	check_type(char c, va_list args)
 		return (print_int(va_arg(args, int)));
 	else if (c == 's')
 		return (print_string(va_arg(args, char *)));
+	else if (c == 'u')
+		return (print_unsigned(va_arg(args, unsigned int)));
 	return (0);
 }
 

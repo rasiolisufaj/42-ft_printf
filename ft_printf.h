@@ -22,6 +22,7 @@
 int	print_int(int num);
 int	print_char(char c);
 int	print_string(char *str);
+int	print_unsigned(unsigned int n);
 int	ft_printf(const char *format, ...);
 
 #endif
