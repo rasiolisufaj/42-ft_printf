@@ -17,7 +17,7 @@ int	print_string(char *str)
 	unsigned int	i;
 
 	if (!str)
-		return (0);
+		return (print_string("(null)"));
 	i = 0;
 	while (str[i])
 	{

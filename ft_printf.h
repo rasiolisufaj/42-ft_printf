@@ -19,6 +19,11 @@
 # include <stdlib.h>
 # include <unistd.h>
 
+# define DEC "0123456789"
+# define HEX_LOW "0123456789abcdef"
+# define HEX_UP "0123456789ABCDEF"
+
+int	print_base(unsigned long n, char *base);
 int	print_int(int num);
 int	print_char(char c);
 int	print_string(char *str);
